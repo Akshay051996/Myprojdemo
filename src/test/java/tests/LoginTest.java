@@ -14,6 +14,9 @@ public class LoginTest extends BaseClass{
 	public void Login() throws IOException {
 		WebDriver driver = initializeBrowser();
 		driver.get(prop.getProperty("url"));
+		
+		System.out.println("Pranjali Update the things");
+		
 		}
 
 }
